@@ -1,0 +1,24 @@
+authtoken: <add_your_token_here>
+region: us
+tunnels:
+    eleanor-http:
+        labels:
+        - edge=edghts_2MQQLoodAdAdH9VrTr8mEnn5C2t
+        addr: http://localhost:80
+    eleanor-webdav:
+        labels:
+        - edge=edghts_2MQQLoodAdAdH9VrTr8mEnn5C2t
+        addr: http://localhost:8888
+    eleanor-8080:
+        labels:
+        - edge=edghts_2MQQLoodAdAdH9VrTr8mEnn5C2t
+        addr: http://localhost:8080
+    eleanor-19999:
+        labels:
+        - edge=edghts_2MQQLoodAdAdH9VrTr8mEnn5C2t
+        addr: http://localhost:19999
+    eleanor-tcp:
+        labels:
+        - edge=edgtcp_2M1cS4q95rZHdsPOSaQddMbQsdI
+        addr: 22
+version: "2"
